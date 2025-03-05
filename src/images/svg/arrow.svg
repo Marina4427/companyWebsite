@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10">
+<symbol id="arrow-icon">
+<path
+  fill="currentColor"
+
+d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z"/>
+</symbol>
+</svg>
