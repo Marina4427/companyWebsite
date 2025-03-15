@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweakful</title>
+    <link rel="icon" href="../images/icon.ico" sizes="any" />
+    <link rel="stylesheet" href="../vendor/fonts/fonts.css" />
+    <link rel="stylesheet" href="../styles/theme.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/variable.css">
+    <link rel="stylesheet" href="../styles/contactForm.css">
+    <meta name="color-scheme" content="light dark" />
+</head>
+
+<body class="page">
+    <header class="header container">
+        <div class="header__container">
+            <div class="content-left">
+                <a class="header__flex" href="../index.html#home">
+                    <img class="header__logo-image" src="../images/svg/logo.svg" alt="Логотип проекта" />
+                    <p class="header__title" id="home">Tweakful</p>
+                </a>
+                <nav class="header__nav nav burger-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item nav__item_active">
+                            <a class="nav__linl link" href="../index.html#home">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="#benefits">Features</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="#process">Pricing</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="./aboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="#contctUs">Help</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content-right">
+                <button type="button" class="button-book button">
+                    Book A Meeting
+                    <svg class="img__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10">
+                        <use href="../images/svg/arrow.svg#arrow-icon"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="block_blue">
+        <div class="contact section">
+            <div class="container contact__container">
+                <div class="contact__info">
+                    <h1 class="contact__title">Contact Us</h1>
+                    <p class="contact__text">
+                        If you have any questions about the subscription or are
+                        not sure which plan is right for you, contact our team
+                        and let’s schedule a call.
+                    </p>
+                    <div class="button__container">
+                        <a class="button button__call" href="tel:6699849439" role="button">
+                            <span class="button_description">Call Us</span>
+                            <span class="indent">(669) 984-9439</span>
+                        </a>
+                        <a class="button button__email" href="mailto:hello@openthrive.com" role="button">
+                            <span class="button_description">Email Us</span>
+                            <span class="indent">hello@openthrive.com</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="formContact" id="contactUs">
+                    <h2 class="form_title">Let’s Talk 👋</h2>
+                    <p class="form_text"> If you have any question or
+                        issue’s to use our product. Fill the form
+                        below. We’ll help you.
+                    </p>
+                    <div class="container__label">
+                        <label>
+                            Your name<span class="accent">*</span>
+                            <input type="text" class="contactForm_input" name="name" placeholder="Enter your name"
+                                required />
+                        </label>
+                        <label>
+                            Your email<span class="accent">*</span>
+                            <input type="email" class="contactForm_input" name="email" placeholder="Enter your email"
+                                required />
+                        </label>
+                    </div>
+                    <p>
+                        <label>
+                            Choose topic<span class="accent">*</span>
+                            <select id="topic" class="form__select" name="topic" required>
+                                <option value="" disabled selected>
+                                    Select one topic*
+                                </option>
+                                <option value="lobor">
+                                    Трудовые споры
+                                </option>
+                                <option value="family">Семейные споры</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                    <div class="form_textarea">
+                        <label for="message"> Message<span class="accent">*</span></label>
+                        <textarea name="message" rows="7" placeholder="Write your message"></textarea>
+                    </div>
+                    </p>
+                    <button type="submit" class="button form__button"> Contact Us</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="block_svg container">
+        <svg class="partners google" viewBox="0 0 95 31" xmlns="http://www.w3.org/2000/svg">
+            <use href="../images/svg/Google.svg#google"></use>
+        </svg>
+        <svg class="partners amazon" viewBox="0 0 160 31" xmlns="http://www.w3.org/2000/svg">
+            <use href="../images/svg/Amazon.svg#amazon"></use>
+        </svg>
+        <svg class="partners atlassian" viewBox="0 0 100 31" xmlns="http://www.w3.org/2000/svg">
+            <use href="../images/svg/Atlassian.svg#atlassian"></use>
+        </svg>
+        <svg class="partners facebook" viewBox="0 0 160 31" xmlns="http://www.w3.org/2000/svg">
+            <use href="../images/svg/Facebook.svg#facebook"></use>
+        </svg>
+    </div>
+
+
+    <section class="office container ">
+        <div class="office__block">
+            <h2 class="office__title">Our offices</h2>
+            <p class="office__description">
+                Amazing cities, totally tricked out offices. Explore the world
+                of Tweakful.
+            </p>
+        </div>
+
+        <ul class="block__cards">
+            <li class="cards__item">
+                <img class="office__img" src="../images/team.jpg" alt="Our team.">
+                <div class="card__content">
+                    <h3 class="office__name">Vancouver Office</h3>
+                    <address class="office__address">
+                        1085 Homer St. Vancouver BC, Canada V6B 2X5
+                    </address>
+                    <a class="card__link"
+                        href="https://www.google.ru/maps/place/1085+Homer+St,+Vancouver,+BC+V6B+2X5">Open in Maps > </a>
+                </div>
+            </li>
+            <li class="cards__item">
+                <img class="map__img" src="../images/map.jpg" alt="Our team.">
+                <div class="card__content">
+                    <h3 class="office__name">Vancouver Office</h3>
+                    <address class="office__address">
+                        1085 Homer St. Vancouver BC, Canada V6B 2X5
+                    </address>
+                    <a class="card__link"
+                        href="https://www.google.ru/maps/place/1085+Homer+St,+Vancouver,+BC+V6B+2X5">Open in Maps > </a>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+        <div class="footer__up">
+          <div class="footer__up-left">
+            <p class="title-firm">
+              <a href="#home"> Tweakful </a>
+            </p>
+            <p class="about">About Tweakful</p>
+            <p class="text">
+              Tweakful is HubSpot Theme Based On Engagement Design Framework,
+              designed & developed by Openthrive.
+            </p>
+            <button type="button" class="button-footer button">
+              Contact Us
+              <svg class="img__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10">
+                <use href="../images/svg/arrow.svg#arrow-icon"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="footer__up-right">
+            <ul class="link__list">
+              <li class="link__list-item">
+                <a href="contactForm.html#aboutUs"> Contact </a>
+              </li>
+              <li class="link__list-item">Career</li>
+              <li class="link__list-item">Privacy Plocy</li>
+              <li class="link__list-item">Terms Of Services</li>
+              <li class="link__list-item">GDPR</li>
+              <li class="link__list-item">FAQs</li>
+            </ul>
+            <ul class="link__list link__list-indent">
+              <li class="link__list-item">Blog</li>
+              <li class="link__list-item">Capabilities</li>
+              <li class="link__list-item">Resources</li>
+              <li class="link__list-item">Partnership Integration</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__down">
+          <div class="footer__down-left">
+            B2B website and engagement design solution that transform
+            marketing and sales performance like never before.
+          </div>
+          <div class="footer__down-right">
+            © 2015-2020 Openthrive. All right reserved.
+          </div>
+        </div>
+      </div>
+      </footer>
+</body>
+
+</html>

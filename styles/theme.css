@@ -1,0 +1,17 @@
+/* @media (prefers-color-scheme: light) { */
+  :root {
+    --bg-color: #fff;
+    --main-color: #1e1e1e;
+    --accent-bg-color: #E7EBFC;
+    --decorate-color: #2E4FD7;
+    --font-subtitle-color: #64626a;
+    --hover-text-color: #fff;
+    --border-color: #B4B4B4;
+    --link-hover-color: #e0553f;
+    --border-footer: rgba(255, 255, 255, 0.08);
+    --footer-color: #052825;
+  }
+/* } */
+
+
+

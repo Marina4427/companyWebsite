@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".button").forEach((function(n){n.addEventListener("click",(function(){var n=window.location.pathname;n.endsWith("/index.html")||"/"===n||"/src/"===n?window.location.href="./pages/contactForm.html":n.includes("/pages/")&&(window.location.href="../pages/contactForm.html")}))}))}));

@@ -1,0 +1,14 @@
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  src: url('../vendor/fonts/Inter-Variable.woff2') format('woff2');
+  font-weight: 400 785;
+  font-style: normal;
+}
+ @font-face {
+  font-display: swap;
+  font-family: CherrySwash;
+  src: url('../vendor/fonts/CherrySwash.woff2') format('woff2 supports variations');
+  font-style: normal;
+}
+
