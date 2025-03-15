@@ -351,14 +351,14 @@ template {
 @font-face {
   font-display: swap;
   font-family: Inter;
-  src: url(./b2b32f7882156658c072.woff2) format('woff2');
+  src: url(/companyWebsite/b2b32f7882156658c072.woff2) format('woff2');
   font-weight: 400 785;
   font-style: normal;
 }
  @font-face {
   font-display: swap;
   font-family: CherrySwash;
-  src: url(./e15b37ee114f80236e6b.woff2) format('woff2 supports variations');
+  src: url(/companyWebsite/e15b37ee114f80236e6b.woff2) format('woff2 supports variations');
   font-style: normal;
 }
 
