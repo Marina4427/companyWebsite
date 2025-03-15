@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",(()=>{document.querySelectorAll(".button").forEach((t=>{t.addEventListener("click",(()=>{const t=window.location.pathname;t.endsWith("/index.html")||"/"===t||"/src/"===t?window.location.href="./pages/contactForm.html":t.includes("/pages/")&&(window.location.href="../pages/contactForm.html")}))}))}));
