@@ -76,6 +76,7 @@ button:focus {
 }
 
 .button {
+  display: inline-block;
   cursor: pointer;
   font-size: 14px;
   border: none;
@@ -137,9 +138,9 @@ button:focus {
   color: var(--bg-color);
   background-color: var(--decorate-color);
   padding: 8px 19px;
-  flex-shrink: 0;
   transition: all 0.5s ease-in-out;
-  display: flex;
+  display: inline;
+  letter-spacing: 0;
   align-items: center;
 }
 
